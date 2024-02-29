@@ -63,7 +63,7 @@ const people = [
 ]
 
     return(
-      <div className=''>
+      <div className='container mx-auto'>
         <ul role="list" className="divide-y divide-gray-100">
       {people.map((person) => (
         <li key={person.email} className="flex justify-between gap-x-4 py-5">
